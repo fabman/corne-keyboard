@@ -55,6 +55,16 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <25 26>;
         };
+
+        combo_left_paren {
+            bindings = <&kp LS(N8)>;
+            key-positions = <7 8>;
+        };
+
+        combo_right_paren {
+            bindings = <&kp LS(N9)>;
+            key-positions = <10 9>;
+        };
     };
 
     keymap {
