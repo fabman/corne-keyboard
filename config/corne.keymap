@@ -36,12 +36,12 @@
         };
 
         combo_left_curly {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp RA(APOSTROPHE)>;
             key-positions = <31 32>;
         };
 
         combo_right_curly {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp RA(BACKSLASH)>;
             key-positions = <33 34>;
         };
 
