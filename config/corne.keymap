@@ -18,13 +18,18 @@
         };
 
         left_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LBKT>;
             key-positions = <19 20>;
         };
 
         right_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp RBKT>;
             key-positions = <21 22>;
+        };
+
+        Semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <32 33>;
         };
     };
 
