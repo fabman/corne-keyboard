@@ -75,6 +75,36 @@
             bindings = <&kp LS(NUMBER_0)>;
             key-positions = <6 7>;
         };
+
+        combo_home {
+            bindings = <&kp HOME>;
+            key-positions = <10 9>;
+        };
+
+        combo_end {
+            bindings = <&kp END>;
+            key-positions = <22 21>;
+        };
+
+        combo_page_down {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <16 17>;
+        };
+
+        combo_page_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <4 5>;
+        };
+
+        combo_insert {
+            bindings = <&kp INSERT>;
+            key-positions = <1 2>;
+        };
+
+        combo_pause {
+            bindings = <&kp PAUSE_BREAK>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
