@@ -62,7 +62,7 @@
         };
 
         combo_hyphen {
-            bindings = <&kp BACKSLASH>;
+            bindings = <&kp SLASH>;
             key-positions = <18 19>;
         };
 
