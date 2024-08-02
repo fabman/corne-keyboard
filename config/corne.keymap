@@ -27,7 +27,7 @@
 
         combo_right_bracket {
             bindings = <&kp RA(RBKT)>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
             timeout-ms = <50>;
         };
 
@@ -43,7 +43,7 @@
 
         combo_right_curly {
             bindings = <&kp RA(BACKSLASH)>;
-            key-positions = <33 34>;
+            key-positions = <33 32>;
         };
 
         combo_left_paren {
@@ -53,7 +53,7 @@
 
         combo_right_paren {
             bindings = <&kp LS(N9)>;
-            key-positions = <10 9>;
+            key-positions = <9 8>;
         };
 
         combo_layer_controls {
@@ -88,10 +88,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE        &kp EXCL              &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp NUMBER_8  &kp NUMBER_9  &kp BSPC
-&kp LEFT_SHIFT    &kp NON_US_BACKSLASH  &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT      &kp BSLH      &kp GRAVE
-&kp LEFT_CONTROL  &kp LT                &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC      &kp PIPE      &kp TILDE
-                                                &trans    &trans    &trans       &trans     &trans     &trans
+&kp ESCAPE        &kp EXCL              &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp LEFT_BRACE  &kp CARET  &kp RIGHT_BRACE  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp BSPC
+&kp LEFT_SHIFT    &kp NON_US_BACKSLASH  &trans  &trans    &trans    &trans       &kp MINUS       &kp EQUAL  &kp LBKT         &kp RBKT          &kp BSLH          &kp GRAVE
+&kp LEFT_CONTROL  &kp LT                &trans  &trans    &trans    &trans       &kp UNDER       &kp PLUS   &kp LBRC         &kp RBRC          &kp PIPE          &kp TILDE
+                                                &trans    &trans    &trans       &trans          &trans     &trans
             >;
         };
 
