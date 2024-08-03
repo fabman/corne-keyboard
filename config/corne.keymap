@@ -111,7 +111,7 @@
 
         combo_semicolon_and_colon {
             bindings = <&mt GREATER_THAN LESS_THAN>;
-            key-positions = <10 9>;
+            key-positions = <22 21>;
             timeout-ms = <50>;
         };
 
