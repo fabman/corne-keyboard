@@ -157,13 +157,13 @@
         };
 
         combo_forward_back_slash {
-            bindings = <&mt RA(TILDE) LS(NUMBER_7)>;
+            bindings = <&mt TILDE LS(NUMBER_7)>;
             key-positions = <31 32>;
             timeout-ms = <50>;
         };
 
         combo_apostr_and_back {
-            bindings = <&mt LS(LEFT_BRACE) DOUBLE_QUOTES>;
+            bindings = <&mt LEFT_BRACKET SEMICOLON>;
             key-positions = <32 33>;
             timeout-ms = <50>;
         };
