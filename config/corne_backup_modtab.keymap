@@ -113,10 +113,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q           &kp W  &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp LEFT_SHIFT    &kp A           &kp S  &kp D         &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMICOLON  &kp APOS
-&kp LEFT_CONTROL  &mt LEFT_WIN Z  &kp X  &kp C         &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ESCAPE
-                                         &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB           &mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt NUMBER_5 T    &mt NUMBER_6 Y  &mt NUMBER_7 U  &mt NUMBER_8 I  &mt NUMBER_9 O  &mt NUMBER_0 P  &kp BSPC
+&kp LEFT_SHIFT    &mt F1 A        &mt F2 S        &mt F3 D        &mt F4 F        &mt F5 G          &mt F6 H        &mt F7 J        &mt F8 K        &mt F9 L        &mt F10 SEMI    &mt F11 APOSTROPHE
+&kp LEFT_CONTROL  &mt LEFT_WIN Z  &kp X           &kp C           &kp V           &kp B             &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp ESCAPE
+                                                  &kp LEFT_ALT    &mo 1           &kp SPACE         &kp RET         &mo 2           &kp RALT
             >;
         };
 
