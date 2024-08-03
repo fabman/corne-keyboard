@@ -61,14 +61,9 @@
             key-positions = <37 40>;
         };
 
-        combo_hyphen {
-            bindings = <&kp SLASH>;
+        combo_hyphen_and_underscore {
+            bindings = <&mt SLASH QUESTION>;
             key-positions = <18 19>;
-        };
-
-        combo_underscore {
-            bindings = <&kp QUESTION>;
-            key-positions = <30 31>;
         };
 
         combo_equal {
