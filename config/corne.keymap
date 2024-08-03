@@ -19,14 +19,14 @@
             layers = <2>;
         };
 
-        combo_left_bracket {
-            bindings = <&kp RA(LBKT)>;
+        combo_left_bracket_and_curly {
+            bindings = <&mt RA(LBKT) RA(APOSTROPHE)>;
             key-positions = <19 20>;
             timeout-ms = <50>;
         };
 
-        combo_right_bracket {
-            bindings = <&kp RA(RBKT)>;
+        combo_right_bracket_and_curly {
+            bindings = <&mt RA(RBKT) RA(BACKSLASH)>;
             key-positions = <21 20>;
             timeout-ms = <50>;
         };
@@ -34,16 +34,6 @@
         combo_delete {
             bindings = <&kp DEL>;
             key-positions = <10 11>;
-        };
-
-        combo_left_curly {
-            bindings = <&kp RA(APOSTROPHE)>;
-            key-positions = <31 32>;
-        };
-
-        combo_right_curly {
-            bindings = <&kp RA(BACKSLASH)>;
-            key-positions = <33 32>;
         };
 
         combo_left_paren {
