@@ -157,7 +157,7 @@
         };
 
         combo_forward_back_slash {
-            bindings = <&mt GREATER_THAN LS(NUMBER_7)>;
+            bindings = <&mt RA(GRAVE) LS(NUMBER_7)>;
             key-positions = <31 32>;
             timeout-ms = <50>;
         };
