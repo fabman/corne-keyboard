@@ -95,6 +95,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        combo_semicolon_and_colon {
+            bindings = <&mt LESS_THAN GREATER_THAN>;
+            key-positions = <10 9>;
+        };
     };
 
     keymap {
