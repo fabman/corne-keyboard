@@ -56,8 +56,8 @@
             key-positions = <18 19>;
         };
 
-        combo_equal {
-            bindings = <&kp LS(NUMBER_0)>;
+        combo_equal_and_plus {
+            bindings = <&mt LS(NUMBER_0) RIGHT_BRACKET>;
             key-positions = <6 7>;
         };
 
