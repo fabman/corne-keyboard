@@ -49,7 +49,7 @@
             timeout-ms = <50>;
         };
 
-        combo_layer_controls {
+        combo_layer_3 {
             bindings = <&mo 3>;
             key-positions = <37 40>;
             timeout-ms = <50>;
@@ -157,13 +157,13 @@
         };
 
         combo_forward_back_slash {
-            bindings = <&mt RA(APOSTROPHE) LS(NUMBER_7)>;
+            bindings = <&mt LESS_THAN LS(NUMBER_7)>;
             key-positions = <31 32>;
             timeout-ms = <50>;
         };
 
         combo_apostr_and_back {
-            bindings = <&mt LEFT_BRACKET UNDERSCORE>;
+            bindings = <&mt LEFT_BRACKET MINUS>;
             key-positions = <32 33>;
             timeout-ms = <50>;
         };
