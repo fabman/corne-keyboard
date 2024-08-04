@@ -153,7 +153,7 @@
         combo_questionmarks {
             bindings = <&mt LS(EQUAL) LS(UNDERSCORE)>;
             key-positions = <13 14>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         combo_forward_back_slash {
