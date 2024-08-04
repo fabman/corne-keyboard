@@ -151,7 +151,7 @@
         };
 
         combo_questionmarks {
-            bindings = <&mt LS(UNDERSCORE) LS(EQUAL)>;
+            bindings = <&mt LS(EQUAL) LS(UNDERSCORE)>;
             key-positions = <13 14>;
             timeout-ms = <50>;
         };
